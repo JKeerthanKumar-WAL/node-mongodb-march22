@@ -32,7 +32,7 @@ const deleteAuthor = (req, res) => {
       res.json(err);
     } else {
       res.json({
-        status: `authpr details with _id as ${req.params.id} is removed`,
+        status: `author details with id as ${req.params.id} is removed`,
       });
     }
   });
